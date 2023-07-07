@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Imc">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calcule o IMC!"/>
+            <Label Text="Nome:" />
+            <Entry x:Name="etValorN"  Placeholder="Nome"/>
+            <Label Text="Idade:" />
+            <Entry x:Name="etValorI"  Keyboard="Numeric" Placeholder="Idade"/>
+            <Label Text="Peso:" />
+            <Entry x:Name="etValorP"  Keyboard="Numeric" Placeholder="Peso"/>
+            <Label Text="Altura:" />
+            <Entry x:Name="etValorA"  Keyboard="Numeric" Placeholder="Altura"/>
+            <Label x:Name="lbImc" />
+            <Button Text="Gerar IMC" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
